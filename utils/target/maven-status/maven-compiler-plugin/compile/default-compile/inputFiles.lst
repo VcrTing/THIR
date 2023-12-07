@@ -1,0 +1,15 @@
+/Users/zengyingqiong/JAVAS/SpringBoot/thir/utils/src/main/java/com/example/define/query/QPage.java
+/Users/zengyingqiong/JAVAS/SpringBoot/thir/utils/src/main/java/com/example/define/query/QDate.java
+/Users/zengyingqiong/JAVAS/SpringBoot/thir/utils/src/main/java/com/example/define/query/QLikes.java
+/Users/zengyingqiong/JAVAS/SpringBoot/thir/utils/src/main/java/com/example/utils/usefull/QJsonUtil.java
+/Users/zengyingqiong/JAVAS/SpringBoot/thir/utils/src/main/java/com/example/utils/security/QJwtUtil.java
+/Users/zengyingqiong/JAVAS/SpringBoot/thir/utils/src/main/java/com/example/define/vaiid/QValidError.java
+/Users/zengyingqiong/JAVAS/SpringBoot/thir/utils/src/main/java/com/example/define/result/QPager.java
+/Users/zengyingqiong/JAVAS/SpringBoot/thir/utils/src/main/java/com/example/define/query/QSort.java
+/Users/zengyingqiong/JAVAS/SpringBoot/thir/utils/src/main/java/com/example/utils/result/QHttpResponseResultUtil.java
+/Users/zengyingqiong/JAVAS/SpringBoot/thir/utils/src/main/java/com/example/define/vaiid/QLogicException.java
+/Users/zengyingqiong/JAVAS/SpringBoot/thir/utils/src/main/java/com/example/define/query/QBetweenDate.java
+/Users/zengyingqiong/JAVAS/SpringBoot/thir/utils/src/main/java/com/example/define/result/QResponse.java
+/Users/zengyingqiong/JAVAS/SpringBoot/thir/utils/src/main/java/com/example/utils/usefull/QVoToEntityUtil.java
+/Users/zengyingqiong/JAVAS/SpringBoot/thir/utils/src/main/java/com/example/utils/basic/QTypedUtil.java
+/Users/zengyingqiong/JAVAS/SpringBoot/thir/utils/src/main/java/com/example/utils/basic/QFileUtil.java
