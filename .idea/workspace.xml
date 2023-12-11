@@ -4,7 +4,75 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c164297d-70e2-4bde-9036-f1c125c6b333" name="Changes" comment="" />
+    <list default="true" id="c164297d-70e2-4bde-9036-f1c125c6b333" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doing/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/DoingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/DoingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/conf/MqConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/conf/MqConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/order/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/order/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/order/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/product/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/product/ProductMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/product/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/roie/RoieController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/roie/RoieMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/roie/RoieService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/sys/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/sys/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/sys/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/mq/CompRabbitListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/mq/fanout/MqAnnoCreatDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/mq/fanout/MqSimpleCreatConf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/doing/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/src/test/java/com/example/doing/MqPubTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/doing/src/test/java/com/example/doing/MqPubTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/DoingApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/classes/com/example/doing/DoingApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/conf/MqConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/classes/com/example/doing/conf/MqConf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/conf/MybatisplusConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/classes/com/example/doing/conf/MybatisplusConf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/order/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/order/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/order/OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/order/OrderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/order/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/order/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/product/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/product/ProductMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/product/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/roie/RoieController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/roie/RoieMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/roie/RoieService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/sys/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/sys/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/sys/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/mq/CompRabbitListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/mq/fanout/MqAnnoCreatDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/mq/fanout/MqSimpleCreatConf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/test-classes/com/example/doing/MqPubTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/test-classes/com/example/doing/MqPubTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity/src/main/java/com/example/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/entity/src/main/java/com/example/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity/target/classes/com/example/define/EnumSex.class" beforeDir="false" afterPath="$PROJECT_DIR$/entity/target/classes/com/example/define/EnumSex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity/target/classes/com/example/entity/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/entity/target/classes/com/example/entity/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity/target/classes/com/example/entity/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/entity/target/classes/com/example/entity/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity/target/classes/com/example/entity/Roie.class" beforeDir="false" afterPath="$PROJECT_DIR$/entity/target/classes/com/example/entity/Roie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity/target/classes/com/example/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/entity/target/classes/com/example/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity/target/classes/com/example/mapstruct/UserEntityToView.class" beforeDir="false" afterPath="$PROJECT_DIR$/entity/target/classes/com/example/mapstruct/UserEntityToView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity/target/classes/com/example/view/UserView.class" beforeDir="false" afterPath="$PROJECT_DIR$/entity/target/classes/com/example/view/UserView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepone/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stepone/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepone/src/main/java/com/example/stepone/SteponeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/stepone/src/main/java/com/example/stepone/SteponeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepone/src/main/java/com/example/stepone/moduie/sys/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stepone/src/main/java/com/example/stepone/moduie/sys/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepone/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/stepone/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/define/query/QBetweenDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/define/query/QBetweenDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/define/query/QDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/define/query/QDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/define/query/QLikes.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/define/query/QLikes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/define/query/QPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/define/query/QPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/define/query/QSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/define/query/QSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/define/result/QPager.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/define/result/QPager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/define/result/QResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/define/result/QResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/define/vaiid/QLogicException.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/define/vaiid/QLogicException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/define/vaiid/QValidError.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/define/vaiid/QValidError.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/utils/basic/QFileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/utils/basic/QFileUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/utils/basic/QTypedUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/utils/basic/QTypedUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/utils/result/QHttpResponseResultUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/utils/result/QHttpResponseResultUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/utils/usefull/QJsonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/utils/usefull/QJsonUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/utils/usefull/QVoToEntityUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/utils/usefull/QVoToEntityUtil.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,11 +83,14 @@
       <list>
         <option value="package-info" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -28,6 +99,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2YZQjfdAUtkMOv0fFMcA3Dx3RsS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,8 +115,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "zulu-1.8",
-    "last_opened_file_path": "/Users/zengyingqiong/JAVAS/SpringBoot/thir/doing/src/main/resources",
+    "last_opened_file_path": "/Users/zengyingqiong/JAVAS/SpringBoot/thir/stepone/src/main/java/com/example/stepone/moduie",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,11 +134,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/stepone/src/main/java/com/example/stepone/moduie" />
       <recent name="$PROJECT_DIR$/doing/src/main/resources" />
       <recent name="$PROJECT_DIR$/doing/src/main/java" />
       <recent name="$PROJECT_DIR$/utils/src/main/java/com/example/define" />
       <recent name="$PROJECT_DIR$/utils/src/main/java" />
-      <recent name="$PROJECT_DIR$/stepone/src/main/resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.doing" />
@@ -76,86 +151,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.DoingApplication">
-    <configuration name="MqPubTest.directMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="doing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.doing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.doing" />
-      <option name="MAIN_CLASS_NAME" value="com.example.doing.MqPubTest" />
-      <option name="METHOD_NAME" value="directMap" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MqPubTest.fanout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="doing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.doing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.doing" />
-      <option name="MAIN_CLASS_NAME" value="com.example.doing.MqPubTest" />
-      <option name="METHOD_NAME" value="fanout" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MqPubTest.hello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="stepone" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.stepone.MQ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.stepone.MQ" />
-      <option name="MAIN_CLASS_NAME" value="com.example.stepone.MQ.MqPubTest" />
-      <option name="METHOD_NAME" value="hello" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MqPubTest.hello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="doing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.doing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.doing" />
-      <option name="MAIN_CLASS_NAME" value="com.example.doing.MqPubTest" />
-      <option name="METHOD_NAME" value="hello" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TYpedTest.cis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="doing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.doing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.doing" />
-      <option name="MAIN_CLASS_NAME" value="com.example.doing.TYpedTest" />
-      <option name="METHOD_NAME" value="cis" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DoingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="doing" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.doing.DoingApplication" />
@@ -176,13 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SteponeApplication" />
+      <item itemvalue="Spring Boot.DoingApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.DoingApplication" />
-        <item itemvalue="JUnit.TYpedTest.cis" />
-        <item itemvalue="JUnit.MqPubTest.directMap" />
-        <item itemvalue="JUnit.MqPubTest.fanout" />
-        <item itemvalue="JUnit.MqPubTest.hello" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +199,9 @@
       <workItem from="1701160458098" duration="1645000" />
       <workItem from="1701227678334" duration="5317000" />
       <workItem from="1701758311037" duration="17361000" />
-      <workItem from="1701939507951" duration="2331000" />
+      <workItem from="1701939507951" duration="8820000" />
+      <workItem from="1702002413097" duration="10261000" />
+      <workItem from="1702092004204" duration="15263000" />
     </task>
     <servers />
   </component>

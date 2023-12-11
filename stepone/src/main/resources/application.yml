@@ -8,9 +8,36 @@ spring:
     virtual-host: test
     username: qiong
     password: qiong
+    connection-timeout: 1s # 連接超時 時間
+
+    # 监听者
     listener:
       simple:
-        prefetch: 2 # 每次 取 一個，消費完 才去 申請下一個
+        prefetch: 1 # 每次 取 一個，消費完 才去 申請下一個
+        acknowledge-mode: auto # spring 給妳 定 好的 消費者 返回
+
+        # 这里 使用的 是 spring 的 重试 机制
+        # spring 多次 重试 失败 就 删掉 队列
+        retry:
+          enabled: true
+          initial-interval: 1000ms # 失敗 開始 等待時間
+          multiplier: 1 # 下次等待 時長 倍數
+          max-attempts: 3 # 最大 重識 數量
+
+    # 发送者
+    template:
+      # 發送 者 重試
+      retry:
+        enabled: true # 啟用 重試
+        initial-interval: 1000ms # 失敗 開始 等待時間
+        multiplier: 1 # 下次等待 時長 倍數
+        max-attempts: 3 # 最大 重識 數量
+
+    publisher-confirm-type: correlated # 異步執行 回執消息
+    publisher-returns: false # 路由失敗 時 是否 返回值，一般 false
+    # 你可以給 rabbitTemplate 配置 returnCallBack，去知道 消息路由 是否 有 問題
+    # 雖然 路由 失敗 通常可以 開發過程中 避免。
+
   # DATA SOURCE
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -36,6 +63,7 @@ mybatis-plus:
       id-type: auto
     banner: false
   configuration:
+    map-underscore-to-camel-case: false # 关闭 驼峰
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   mapper-locations: classpath:mapper/*Dao.xml
 
@@ -47,4 +75,4 @@ logging:
     root: error
 
 server:
-  port: 80
+  port: 81

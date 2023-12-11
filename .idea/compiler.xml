@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="stepone" />
+        <module name="define" />
         <module name="doing" />
         <module name="entity" />
         <module name="utils" />
