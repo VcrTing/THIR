@@ -44,9 +44,7 @@ public abstract class QTypedUtil {
     public static Integer serInt(Object src, Integer def) {
         return serNumber(src, def, Integer.class);
     }
-    public static Integer serInt(Object src) {
-        return serInt(src, null);
-    }
+    public static Integer serInt(Object src) { return serInt(src, null); }
 
     public static Short serShort(Object src, Short def) {
         return serNumber(src, def, Short.class);
@@ -54,6 +52,7 @@ public abstract class QTypedUtil {
     public static Short serShort(Object src) {
         return serShort(src, null);
     }
+
     /**
     * 多重 不为空
     * @params

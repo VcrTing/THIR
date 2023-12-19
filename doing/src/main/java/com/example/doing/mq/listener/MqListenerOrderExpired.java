@@ -17,13 +17,13 @@ public class MqListenerOrderExpired {
 
     // 更改 狀態
     @RabbitListener(bindings = @QueueBinding(
-        exchange = @Exchange(name = MQExchange.order, type = ExchangeTypes.TOPIC),
+        exchange = @Exchange(name = MQExchange.orderDelay, type = ExchangeTypes.TOPIC, delayed = "true"),
         value = @Queue(name = MQueueOrder.expire, durable = "true"),
-        key = MQueueOrder.keyPayExpire,
-        arguments = @Argument(name = "x-queue-mode", value = "lazy")
+        key = MQueueOrder.keyPayExpire
+        // arguments = @Argument(name = "x-queue-mode", value = "lazy")
     ))
     public void listenerPayExpire(Order order) {
         System.out.println(MQueueOrder.expire + " 接收的，用於處理訂單过期 = " + order);
-        orderService.payedExpire(order.getId());
+        // orderService.payedExpire(order.getId());
     }
 }

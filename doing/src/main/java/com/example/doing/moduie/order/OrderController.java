@@ -61,12 +61,12 @@ public class OrderController {
         System.out.println("支付的 订单 = " + order);
 
         // 付款 订单
-        if (service.pay(order, price) ) {
-
+        Object res = service.pay(order, price);
+        if (res instanceof Order) {
             // 付款 后 回调
             return service.payCallBack(order);
         }
-        return "订单付款失败。";
+        return res.toString();
     }
 
     @GetMapping

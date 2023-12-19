@@ -58,11 +58,11 @@ public class OrderService extends ServiceImpl<OrderMapper, Order> {
     * @return
     */
     @Transactional
-    public boolean pay(Order order, BigDecimal payMoney) {
+    public Object pay(Order order, BigDecimal payMoney) {
 
         // 订单 不是 取消的 状态
-        if (order.getOrder_status() == null || order.getOrder_status() < (short)0) throw new RuntimeException("订单 已是 无用 状态");
-        if (order.getOrder_status() > (short)0) throw new RuntimeException("订单 无需付款，已付款或已完成");
+        if (order.getOrder_status() == null || order.getOrder_status() < (short)0) return "订单 已是 无用 状态";
+        if (order.getOrder_status() > (short)0) return "订单 无需付款，已付款或已完成";
 
         // 订单 金额 入账
         order.setPrice(payMoney);
@@ -80,7 +80,7 @@ public class OrderService extends ServiceImpl<OrderMapper, Order> {
             senderOrder.orderPayedStatus(order);
         } catch (Exception ignored) { }
 
-        return true;
+        return order;
     }
 
     /**

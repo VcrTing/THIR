@@ -5,73 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c164297d-70e2-4bde-9036-f1c125c6b333" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doing/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/DoingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/DoingApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/conf/MqConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/conf/MqConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/define/src/main/java/com/example/config/mq/MQExchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/define/src/main/java/com/example/config/mq/MQExchange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/define/src/main/java/com/example/config/mq/queue/MQueueOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/define/src/main/java/com/example/config/mq/queue/MQueueOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/define/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/define/target/classes/com/example/config/mq/MQExchange.class" beforeDir="false" afterPath="$PROJECT_DIR$/define/target/classes/com/example/config/mq/MQExchange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/define/target/classes/com/example/config/mq/queue/MQueueOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/define/target/classes/com/example/config/mq/queue/MQueueOrder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/order/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/order/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/order/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/product/ProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/product/ProductMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/product/ProductService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/roie/RoieController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/roie/RoieMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/roie/RoieService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/sys/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/sys/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/sys/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/mq/CompRabbitListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/mq/fanout/MqAnnoCreatDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/mq/fanout/MqSimpleCreatConf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/doing/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/src/test/java/com/example/doing/MqPubTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/doing/src/test/java/com/example/doing/MqPubTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/DoingApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/classes/com/example/doing/DoingApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/conf/MqConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/classes/com/example/doing/conf/MqConf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/conf/MybatisplusConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/classes/com/example/doing/conf/MybatisplusConf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/mq/listener/MqListenerOrderExpired.java" beforeDir="false" afterPath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/mq/listener/MqListenerOrderExpired.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/mq/sender/MqSenderOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/mq/sender/MqSenderOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/src/test/java/com/example/doing/TYpedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/doing/src/test/java/com/example/doing/TYpedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/order/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/order/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/order/OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/order/OrderMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/order/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/order/OrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/product/ProductController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/product/ProductMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/product/ProductService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/roie/RoieController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/roie/RoieMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/roie/RoieService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/sys/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/sys/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/sys/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/mq/CompRabbitListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/mq/fanout/MqAnnoCreatDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/mq/fanout/MqSimpleCreatConf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/mq/listener/MqListenerOrderExpired.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/classes/com/example/doing/mq/listener/MqListenerOrderExpired.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/mq/sender/MqSenderOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/classes/com/example/doing/mq/sender/MqSenderOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/test-classes/com/example/doing/MqPubTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/test-classes/com/example/doing/MqPubTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/test-classes/com/example/doing/MqPubTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/test-classes/com/example/doing/MqPubTest$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doing/target/test-classes/com/example/doing/MqPubTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/test-classes/com/example/doing/MqPubTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity/src/main/java/com/example/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/entity/src/main/java/com/example/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity/target/classes/com/example/define/EnumSex.class" beforeDir="false" afterPath="$PROJECT_DIR$/entity/target/classes/com/example/define/EnumSex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity/target/classes/com/example/entity/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/entity/target/classes/com/example/entity/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity/target/classes/com/example/entity/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/entity/target/classes/com/example/entity/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity/target/classes/com/example/entity/Roie.class" beforeDir="false" afterPath="$PROJECT_DIR$/entity/target/classes/com/example/entity/Roie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity/target/classes/com/example/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/entity/target/classes/com/example/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity/target/classes/com/example/mapstruct/UserEntityToView.class" beforeDir="false" afterPath="$PROJECT_DIR$/entity/target/classes/com/example/mapstruct/UserEntityToView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity/target/classes/com/example/view/UserView.class" beforeDir="false" afterPath="$PROJECT_DIR$/entity/target/classes/com/example/view/UserView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepone/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stepone/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doing/target/test-classes/com/example/doing/TYpedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/test-classes/com/example/doing/TYpedTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stepone/src/main/java/com/example/stepone/SteponeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/stepone/src/main/java/com/example/stepone/SteponeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepone/src/main/java/com/example/stepone/moduie/sys/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stepone/src/main/java/com/example/stepone/moduie/sys/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepone/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/stepone/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/define/query/QBetweenDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/define/query/QBetweenDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/define/query/QDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/define/query/QDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/define/query/QLikes.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/define/query/QLikes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/define/query/QPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/define/query/QPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/define/query/QSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/define/query/QSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/define/result/QPager.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/define/result/QPager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/define/result/QResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/define/result/QResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/define/vaiid/QLogicException.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/define/vaiid/QLogicException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/define/vaiid/QValidError.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/define/vaiid/QValidError.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/utils/basic/QFileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/utils/basic/QFileUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepone/src/main/java/com/example/stepone/moduie/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/stepone/src/main/java/com/example/stepone/moduie/product/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/example/utils/basic/QTypedUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/example/utils/basic/QTypedUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/utils/basic/QTypedUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/utils/basic/QTypedUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/utils/result/QHttpResponseResultUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/utils/result/QHttpResponseResultUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/utils/usefull/QJsonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/utils/usefull/QJsonUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/utils/usefull/QVoToEntityUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/utils/usefull/QVoToEntityUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/target/test-classes/org/example/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/test-classes/org/example/AppTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,29 +62,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "zulu-1.8",
-    "last_opened_file_path": "/Users/zengyingqiong/JAVAS/SpringBoot/thir/stepone/src/main/java/com/example/stepone/moduie",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "spring.configuration.checksum": "49701099dc4e6ab79ff97b0354fda23f",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;zulu-1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zengyingqiong/JAVAS/SpringBoot/thir/stepone/src/main/java/com/example/stepone/moduie&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;49701099dc4e6ab79ff97b0354fda23f&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -144,22 +100,90 @@
       <recent name="com.example.doing" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.doing.basic" />
       <recent name="com.example.doing.moduie.product" />
       <recent name="com.example.stepone.conf" />
       <recent name="com.example.stepone.factory" />
       <recent name="com.example.stepone.moduie.roie" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DoingApplication">
-    <configuration name="DoingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MyFeignTest.mf">
+    <configuration name="MoneyTest.one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="doing" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.doing.DoingApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.doing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.example.doing" />
+      <option name="MAIN_CLASS_NAME" value="com.example.doing.MoneyTest" />
+      <option name="METHOD_NAME" value="one" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyFeignTest.mf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="doing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.doing.myFeign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.doing.myFeign" />
+      <option name="MAIN_CLASS_NAME" value="com.example.doing.myFeign.MyFeignTest" />
+      <option name="METHOD_NAME" value="mf" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyTest.dynamicProxy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="doing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.doing.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.doing.proxy" />
+      <option name="MAIN_CLASS_NAME" value="com.example.doing.proxy.ProxyTest" />
+      <option name="METHOD_NAME" value="dynamicProxy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyTest.staticProxy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="doing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.doing.proxy.statics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.doing.proxy" />
+      <option name="MAIN_CLASS_NAME" value="com.example.doing.proxy.ProxyTest" />
+      <option name="METHOD_NAME" value="staticProxy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TYpedTest.math" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="doing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.doing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.doing" />
+      <option name="MAIN_CLASS_NAME" value="com.example.doing.TYpedTest" />
+      <option name="METHOD_NAME" value="math" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,12 +196,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.MyFeignTest.mf" />
+      <item itemvalue="JUnit.ProxyTest.dynamicProxy" />
+      <item itemvalue="JUnit.ProxyTest.staticProxy" />
+      <item itemvalue="JUnit.MoneyTest.one" />
+      <item itemvalue="JUnit.TYpedTest.math" />
       <item itemvalue="Spring Boot.SteponeApplication" />
-      <item itemvalue="Spring Boot.DoingApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.DoingApplication" />
+        <item itemvalue="JUnit.MyFeignTest.mf" />
+        <item itemvalue="JUnit.ProxyTest.dynamicProxy" />
+        <item itemvalue="JUnit.ProxyTest.staticProxy" />
+        <item itemvalue="JUnit.MoneyTest.one" />
+        <item itemvalue="JUnit.TYpedTest.math" />
       </list>
     </recent_temporary>
   </component>
@@ -202,6 +234,13 @@
       <workItem from="1701939507951" duration="8820000" />
       <workItem from="1702002413097" duration="10261000" />
       <workItem from="1702092004204" duration="15263000" />
+      <workItem from="1702279509308" duration="9260000" />
+      <workItem from="1702372128291" duration="117000" />
+      <workItem from="1702379269854" duration="181000" />
+      <workItem from="1702433429511" duration="510000" />
+      <workItem from="1702440106920" duration="16899000" />
+      <workItem from="1702645386908" duration="18000" />
+      <workItem from="1702647279457" duration="47000" />
     </task>
     <servers />
   </component>
