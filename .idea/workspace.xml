@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c164297d-70e2-4bde-9036-f1c125c6b333" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/define/src/main/java/com/example/config/mq/MQExchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/define/src/main/java/com/example/config/mq/MQExchange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/define/src/main/java/com/example/config/mq/queue/MQueueOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/define/src/main/java/com/example/config/mq/queue/MQueueOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/define/src/test/java/org/example/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/define/target/classes/com/example/config/mq/MQExchange.class" beforeDir="false" afterPath="$PROJECT_DIR$/define/target/classes/com/example/config/mq/MQExchange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/define/target/classes/com/example/config/mq/queue/MQueueOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/define/target/classes/com/example/config/mq/queue/MQueueOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/order/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/order/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/moduie/order/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/mq/listener/MqListenerOrderExpired.java" beforeDir="false" afterPath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/mq/listener/MqListenerOrderExpired.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/mq/sender/MqSenderOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/doing/src/main/java/com/example/doing/mq/sender/MqSenderOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/src/test/java/com/example/doing/TYpedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/doing/src/test/java/com/example/doing/TYpedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/order/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/order/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/order/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/classes/com/example/doing/moduie/order/OrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/mq/listener/MqListenerOrderExpired.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/classes/com/example/doing/mq/listener/MqListenerOrderExpired.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/classes/com/example/doing/mq/sender/MqSenderOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/classes/com/example/doing/mq/sender/MqSenderOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/test-classes/com/example/doing/MqPubTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/test-classes/com/example/doing/MqPubTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/test-classes/com/example/doing/MqPubTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/test-classes/com/example/doing/MqPubTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/test-classes/com/example/doing/MqPubTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/test-classes/com/example/doing/MqPubTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doing/target/test-classes/com/example/doing/TYpedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/doing/target/test-classes/com/example/doing/TYpedTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepone/src/main/java/com/example/stepone/SteponeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/stepone/src/main/java/com/example/stepone/SteponeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepone/src/main/java/com/example/stepone/moduie/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/stepone/src/main/java/com/example/stepone/moduie/product/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/example/utils/basic/QTypedUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/example/utils/basic/QTypedUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/target/classes/com/example/utils/basic/QTypedUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/classes/com/example/utils/basic/QTypedUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/target/test-classes/org/example/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/utils/target/test-classes/org/example/AppTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="c164297d-70e2-4bde-9036-f1c125c6b333" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +57,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;49701099dc4e6ab79ff97b0354fda23f&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d19e436f3390c542eb00682d06e74914&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -241,6 +217,12 @@
       <workItem from="1702440106920" duration="16899000" />
       <workItem from="1702645386908" duration="18000" />
       <workItem from="1702647279457" duration="47000" />
+      <workItem from="1702979555352" duration="15000" />
+      <workItem from="1702994910046" duration="40000" />
+      <workItem from="1703069723922" duration="11000" />
+      <workItem from="1703126329658" duration="33000" />
+      <workItem from="1703127699205" duration="51000" />
+      <workItem from="1703243196680" duration="16000" />
     </task>
     <servers />
   </component>
