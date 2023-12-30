@@ -5,3 +5,5 @@
 2. springboot-start-redis 这个库在对接redis 的时候，设置方面需要格外注意，它不一样
 
 3. 反射的时候 java.lang.InstantiationException 是因为你没有空参数构造
+
+4. stream() 流之后，对原数组并不会产生任何改变
