@@ -7,3 +7,5 @@
 3. 反射的时候 java.lang.InstantiationException 是因为你没有空参数构造
 
 4. stream() 流之后，对原数组并不会产生任何改变
+
+5. stream() 流调用外部变量得为final，但是是地址值不能变，对象里的内容可以变
