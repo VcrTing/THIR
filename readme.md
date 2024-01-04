@@ -9,3 +9,7 @@
 4. stream() 流之后，对原数组并不会产生任何改变
 
 5. stream() 流调用外部变量得为final，但是是地址值不能变，对象里的内容可以变
+
+6. security 里面的权限认证是基于aop实现的
+
+7. security 内部登录信息基于session
