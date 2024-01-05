@@ -1,6 +1,14 @@
 
 # SPRING
 spring:
+  # MAIL
+  mail:
+    # port: 25
+    host: smtp.163.com
+    username: vcrting@163.com
+    password: AMPKRPNFKXZIJHOO
+    # protocol: smtp
+    # default-encoding: utf-8
   # MQ
   rabbitmq:
     host: 127.0.0.1
@@ -75,4 +83,4 @@ logging:
     root: error
 
 server:
-  port: 81
+  port: 80
