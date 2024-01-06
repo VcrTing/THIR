@@ -13,3 +13,5 @@
 6. security 里面的权限认证是基于aop实现的
 
 7. security 内部登录信息基于session
+
+8. 可以不使用 security 自带的权限认证，使用aop自己做权限认证
