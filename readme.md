@@ -15,3 +15,5 @@
 7. security 内部登录信息基于session
 
 8. 可以不使用 security 自带的权限认证，使用aop自己做权限认证
+
+9. @Transactional(rollbackFor = Exception.class) 事务回滚是基于 AOP 做的
