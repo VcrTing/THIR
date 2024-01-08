@@ -17,3 +17,5 @@
 8. 可以不使用 security 自带的权限认证，使用aop自己做权限认证
 
 9. @Transactional(rollbackFor = Exception.class) 事务回滚是基于 AOP 做的
+
+10. 只要加了回滾，觸發了回滾，不管子類還是父類，裡面的 sql 都會回滾
