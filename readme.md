@@ -19,3 +19,5 @@
 9. @Transactional(rollbackFor = Exception.class) 事务回滚是基于 AOP 做的
 
 10. 只要加了回滾，觸發了回滾，不管子類還是父類，裡面的 sql 都會回滾
+
+11. @Bean 可以联想 spring.xml 里面的 bean 配置，只不过现在用 注解方式定义一个 Bean
